@@ -1,0 +1,8 @@
+{
+  "name": "CannedPouchDB",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "9f64be6f"
+}

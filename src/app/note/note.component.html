@@ -1,0 +1,12 @@
+<ion-item>
+  <div slot="start" [class]="!note.read ? 'dot dot-unread' : 'dot'"></div>
+  <ion-label class="ion-text-wrap">
+    <h2>
+      {{ note.note }}
+      <span class="date">
+        <ion-note>{{ date }}</ion-note>
+      </span>
+    </h2>
+    <h3>Hello from the canned pouchDB 'mydb'!</h3>
+  </ion-label>
+</ion-item>

@@ -3,6 +3,14 @@
   "ignorePatterns": ["projects/**/*"],
   "overrides": [
     {
+      "files": [
+        "can-a-pouch.js"    
+      ],
+      "rules": {
+       "root": false
+      }
+    },
+    {
       "files": ["*.ts"],
       "parserOptions": {
         "project": ["tsconfig.json", "e2e/tsconfig.json"],

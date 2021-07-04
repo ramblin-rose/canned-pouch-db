@@ -12,7 +12,19 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
-    "lib": ["es2018", "dom"]
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "allowSyntheticDefaultImports": true,
+"paths": {
+  "stream": [
+    "node_modules/stream-browserify"
+  ],
+  "process": [
+    "node_modules/process"
+  ]
+}
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

@@ -7,14 +7,6 @@ import MemoryStream from 'memorystream';
 import * as PouchdbAdapterMemory from 'pouchdb-adapter-memory/lib/index.js';
 import ReplicationStream from 'pouchdb-replication-stream/dist/pouchdb.replication-stream.min.js';
 
-export interface Message {
-  fromName: string;
-  subject: string;
-  date: string;
-  id: string;
-  read: boolean;
-}
-
 export interface NoteContent {
   note: string;
 }

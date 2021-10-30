@@ -1,4 +1,4 @@
-# canned-pouch-db
+# canned-pouch-db 🥫
 
 A trivial demonstration on how to can (🥫) a pouchdb instance with a local node script and then load that pouchdb in an Ionic 5/Angular app.
 

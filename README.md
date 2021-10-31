@@ -12,7 +12,7 @@ For context, see [StackOVerflow #68105040](https://stackoverflow.com/questions/6
 # Install &amp; Run
 
 ```
-$ git clone https://github.com/RambleOnRose/canned-pouch-db.git
+$ git clone https://github.com/ramblin-rose/canned-pouch-db.git
 $ cd canned-pouch-db
 $ npm install  
 $ ionic build & ionic serve
